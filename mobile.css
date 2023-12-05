@@ -1,3 +1,8 @@
+.mobile {
+  width: 100vw;
+  height: 100vh;
+}
+
 .mobileheader {
   position: absolute;
   width: 100vw;
