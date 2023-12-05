@@ -1,39 +1,29 @@
-@media (min-width: 800px) {
-  .desktopRemove {
-    display: unset;
-  }
-  .tabletRemove {
-    display: none;
-  }
-  .mobileRemove {
-    display: none;
-  }
+/* For screens over 800px wide */
+@media (min-width: 801px) {
+    .mobileShow, .tabletShow {
+        display: none;
+    }
+    .desktopShow {
+        display: unset;
+    }
 }
 
-
-@media (max-width: 800px) {
-  .desktopRemove {
-    display: none;
-  }
-  .tabletRemove {
-    display: unset;
-  }
-  .mobileRemove {
-    display: none;
-  }
+/* For screens between 400px and 800px wide */
+@media (min-width: 400px) and (max-width: 800px) {
+    .mobileShow, .desktopShow {
+        display: none;
+    }
+    .tabletShow {
+        display: unset;
+    }
 }
 
-@media (max-width: 400px) {
-  .desktopRemove {
-    display: none;
-  }
-  .tabletRemove {
-    display: none;
-  }
-  .mobileRemove {
-    display: unset;
-  }
+/* For screens less than 400px wide */
+@media (max-width: 399px) {
+    .desktopShow, .tabletShow {
+        display: none;
+    }
+    .mobileShow {
+        display: unset;
+    }
 }
-
-
-
