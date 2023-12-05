@@ -1,3 +1,8 @@
+.tablet {
+  width: 100vw;
+  height: 100vh;
+}
+
 .tabletheader {
   position: absolute;
   width: 100vw;
