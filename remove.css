@@ -1,0 +1,35 @@
+@media (min-width: 800px) {
+  .desktopRemove {
+    display: unset;
+  }
+  .tabletRemove {
+    display: none;
+  }
+  .mobileRemove {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .desktopRemove {
+    display: none;
+  }
+  .tabletRemove {
+    display: unset;
+  }
+  .mobileRemove {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .desktopRemove {
+    display: none;
+  }
+  .tabletRemove {
+    display: none;
+  }
+  .mobileRemove {
+    display: unset;
+  }
+}
