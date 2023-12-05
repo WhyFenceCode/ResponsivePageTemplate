@@ -4,7 +4,7 @@
         display: none;
     }
     .desktopShow {
-        display: unset;
+        display: initial;
     }
 }
 
@@ -14,7 +14,7 @@
         display: none;
     }
     .tabletShow {
-        display: unset;
+        display: initial;
     }
 }
 
@@ -24,6 +24,6 @@
         display: none;
     }
     .mobileShow {
-        display: unset;
+        display: initial;
     }
 }
