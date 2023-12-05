@@ -1,0 +1,6 @@
+.tabletheader {
+  position: absolute;
+  width: 100vw;
+  height: 7vh;
+  overflow: hidden;
+}
