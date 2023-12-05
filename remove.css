@@ -1,29 +1,35 @@
 /* For screens over 800px wide */
 @media (min-width: 801px) {
-    .mobileShow, .tabletShow {
+    .mobile, .tablet {
         display: none;
     }
-    .desktopShow {
-        display: initial;
+    .desktop {
+        display: block;
+        width: 100vw;
+        height: 100vh;
     }
 }
 
 /* For screens between 400px and 800px wide */
 @media (min-width: 400px) and (max-width: 800px) {
-    .mobileShow, .desktopShow {
+    .mobile, .desktop{
         display: none;
     }
     .tabletShow {
-        display: initial;
+        display: block;
+        width: 100vw;
+        height: 100vh;
     }
 }
 
 /* For screens less than 400px wide */
 @media (max-width: 399px) {
-    .desktopShow, .tabletShow {
+    .desktop, .tablet {
         display: none;
     }
     .mobileShow {
-        display: initial;
+        display: block;
+        width: 100vw;
+        height: 100vh;
     }
 }
