@@ -27,15 +27,12 @@
   margin-top: 7vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 2fr 0.1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "."
     "desktopline1"
-    "."
-    "desktopline2"
-    ".";
+    "desktopline2";
 }
 
 .desktoptitleline1 { grid-area: desktopline1; }
