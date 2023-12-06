@@ -36,6 +36,7 @@ body {
 
 .titletext {
   text-align: center;
+  font-size: clamp(3rem, 25vmin, 8rem);
   color: white;
   font-family: sans-serif;
 }
