@@ -10,7 +10,7 @@
   overflow: hidden;
 }
 
-.desktoptitle {  
+.tablettitle {  
   width: 100vw;
   height: 93vh;
   margin-top: 7vh;
@@ -25,9 +25,9 @@
     "tabletline3";
 }
 
-.tabletline1 { grid-area: tabletline1; }
+.tablettitleline1 { grid-area: tabletline1; }
 
-.tabletline2 { grid-area: tabletline2; }
+.tablettitleline2 { grid-area: tabletline2; }
 
-.tabletline3 { grid-area: tabletline3; }
+.tablettitleline3 { grid-area: tabletline3; }
 
