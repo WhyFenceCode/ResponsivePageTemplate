@@ -2,32 +2,3 @@
   width: 100vw;
   height: 100vh;
 }
-
-.tabletheader {
-  position: absolute;
-  width: 100vw;
-  height: 7vh;
-  overflow: hidden;
-}
-
-.tablettitle {  
-  width: 100vw;
-  height: 93vh;
-  margin-top: 7vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "tabletline1"
-    "tabletline2"
-    "tabletline3";
-}
-
-.tablettitleline1 { grid-area: tabletline1; }
-
-.tablettitleline2 { grid-area: tabletline2; }
-
-.tablettitleline3 { grid-area: tabletline3; }
-
