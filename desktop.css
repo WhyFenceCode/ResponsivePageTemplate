@@ -34,7 +34,7 @@
     "desktopline2";
 }
 
-.desktopline1 { grid-area: desktopline1; }
+.desktoptitleline1 { grid-area: desktopline1; }
 
-.desktopline2 { grid-area: desktopline2; }
+.desktoptitlepline2 { grid-area: desktopline2; }
 
