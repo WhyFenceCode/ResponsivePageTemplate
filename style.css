@@ -1,4 +1,14 @@
+:root {
+  --dark-gray: #121417;
+  --mid-gray: #25282d;
+  --light-gray: #373c44;
+}
+
 body {
   overflow: hidden;
   margin: 0px;
+}
+
+.header {
+  
 }
