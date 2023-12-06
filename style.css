@@ -4,7 +4,7 @@
   --light-gray: #373c44;
   
   --dark-blue: #0059b3;
-  --light-blue: #007FFF;
+  --light-blue: #3399ff;
 }
 
 body {
@@ -32,8 +32,6 @@ body {
   -webkit-text-fill-color: transparent;
   text-align: center;
   box-sizing: border-box;
-  margin-bottom: 10px;
-  margin-top: auto;
 }
 
 .titletext {
@@ -41,8 +39,6 @@ body {
   font-size: clamp(3rem, 25vmin, 8rem);
   color: white;
   font-family: sans-serif;
-  margin-bottom: auto;
-  margin-top: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
