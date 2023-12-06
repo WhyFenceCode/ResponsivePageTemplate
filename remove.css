@@ -1,6 +1,18 @@
 /* For screens over 800px wide */
-@media (min-width: 801px) {
-    .mobile, .tablet {
+@media (min-width: 2401px) {
+    .mobile, .tablet, .desktop {
+        display: none;
+    }
+    .widescreen {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+/* For screens between 800px and 2400px wide */
+@media (min-width: 800px) and (max-width: 2400px) {
+    .mobile, .tablet, .widescreen {
         display: none;
     }
     .desktop {
@@ -12,10 +24,10 @@
 
 /* For screens between 400px and 800px wide */
 @media (min-width: 400px) and (max-width: 800px) {
-    .mobile, .desktop{
+    .mobile, .desktop, .widescreen {
         display: none;
     }
-    .tabletShow {
+    .tablet {
         display: block;
         width: 100vw;
         height: 100vh;
@@ -24,10 +36,10 @@
 
 /* For screens less than 400px wide */
 @media (max-width: 399px) {
-    .desktop, .tablet {
+    .desktop, .tablet, .widescreen {
         display: none;
     }
-    .mobileShow {
+    .mobile {
         display: block;
         width: 100vw;
         height: 100vh;
