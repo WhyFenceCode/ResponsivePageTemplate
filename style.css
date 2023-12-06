@@ -43,7 +43,7 @@ body {
 
 @media (prefers-reduced-motion: no-preference) {
   .titlefadechange {
-    animation: move-bg 8s linear infinite;
+    animation: move-bg 12s linear infinite;
   }
   @keyframes move-bg {
     to {
