@@ -20,3 +20,21 @@
 .desktoplogo { grid-area: desktoplogo; }
 
 .desktoplinks { grid-area: desktoplinks; }
+
+.desktoptitle {  
+  width: 100vw;
+  height: 93vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "desktopline1"
+    "desktopline2";
+}
+
+.desktopline1 { grid-area: desktopline1; }
+
+.desktopline2 { grid-area: desktopline2; }
+
