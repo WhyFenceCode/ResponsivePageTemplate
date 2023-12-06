@@ -9,3 +9,24 @@
   height: 7vh;
   bottom: 0;
 }
+
+.mobiletitle {  
+  width: 100vw;
+  height: 93vh;
+  margin-top: 7vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "tabletline1"
+    "tabletline2"
+    "tabletline3";
+}
+
+.mobiletitleline1 { grid-area: tabletline1; }
+
+.mobiletitleline2 { grid-area: tabletline2; }
+
+.mobiletitleline3 { grid-area: tabletline3; }
