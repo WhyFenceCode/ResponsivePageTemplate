@@ -1,5 +1,5 @@
 /* For screens over 800px wide */
-@media (min-width: 801px) {
+@media only screen and (min-width: 801px) {
     .mobile, .tablet {
         display: none;
     }
@@ -11,7 +11,7 @@
 }
 
 /* For screens between 400px and 800px wide */
-@media (min-width: 400px) and (max-width: 800px) {
+@media only screen and (min-width: 400px) and (max-width: 800px) {
     .mobile, .desktop {
         display: none;
     }
@@ -23,7 +23,7 @@
 }
 
 /* For screens less than 400px wide */
-@media (max-width: 399px) {
+@media only screen and (max-width: 399px) {
     .desktop, .tablet {
         display: none;
     }
